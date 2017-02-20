@@ -1,9 +1,12 @@
 import $ from 'jquery';
 import  TOKEN  from './token.js';
+import {displayResults} from './template.js';
 
-console.log(TOKEN);
+
+//console.log(TOKEN);
 
 var BASE_URL = "https://api.github.com";
+
 
 function searchData (data, callback) {
   return $.ajax({
@@ -21,17 +24,17 @@ function searchData (data, callback) {
 
  function processData (data) {
    console.log(data);
+   console.log(data.blog);
    return {
      name: data.name,
      github_url: data.html_url,
      email: data.email,
      company: data.company,
-     website: data.blog,
+     blog: data.blog,
      story: data.bio,
-     picture: data.avatar_url
-   }
-  }
+     avatar: data.avatar_url
+   };
 
-searchData();
+  }
 
 export { searchData,processData };
