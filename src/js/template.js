@@ -29,7 +29,7 @@ function displayResults (processData) {
     </div>
     <div class="company">
       <span class="basic">School:</span>
-        ${field.company}
+        ${field.company} - Atlanta
     </div>
     <div class="blog">
       <span class="basic">Blog:</span>
@@ -37,7 +37,20 @@ function displayResults (processData) {
     </div>
     </div>
 
-    <div class="bio">${field.bio}</div>
+    <div class="bio">
+      <div class ="sprites">
+        <a href="https://twitter.com/mariefilbs">
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/marie-filbey/">
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.pinterest.com/marieeedarling/">
+        <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+        </a>
+
+        </div>
+    ${field.bio}</div>
 
     `;
 

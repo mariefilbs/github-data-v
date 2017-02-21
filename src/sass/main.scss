@@ -96,7 +96,35 @@ a {
 }
 
 .bio {
-  font-size: 4em;
+  background-color: #3B547A;
+  border: 2px dashed #fff;
+  color: white;
+  font-size: 3em;
   text-align: center;
-  padding-top: 35px;
+  margin-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.sprites {
+  color: white;
+}
+
+i {
+  padding-left: 15px;
+}
+
+i.fa.fa-twitter-square {
+  z-index: 1;
+  color: white;
+}
+
+i.fa.fa-linkedin-square {
+  z-index: 1;
+  color: white;
+}
+
+i.fa.fa-pinterest-square {
+  z-index: 1;
+  color: white;
 }
