@@ -1,25 +1,102 @@
 * {
   box-sizing: border-box;
+  //font-family: 'Caveat Brush', cursive;
+  font-family: 'Lato', sans-serif;
+
 }
 
 body {
   font-size: 62.5%;
 }
 
+.container {
+  width: 100%;
+  margin: 0px auto;
+}
+
+
 .header {
-  color: white;
-  background: black;
-  height: 200px;
-  padding-top: 75px;
+  width: 100%;
+  background-color: #3B547A;
+  border: 2px dashed #fff;
+  // background-image: url('../images/vines.jpg');
+  // background-position: center;
+  // background-color: grey;
+  // background-blend-mode: screen;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  //height: 250px;
+  padding-top: 65px;
   text-align: center;
-  font-size: 4em;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+#my-name {
+  //font-family: 'Sansita', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 7em;
+  margin-bottom: 13px;
+  letter-spacing: 4px;
+  //justify-content: center;
+}
+
+#web-design{
+  color: white;
+  font-size: 3em;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 200px;
+  display: inline-block;;
+  //align-self: center;
 }
 
 .basic-results {
   height: 200px;
 }
 
+.image {
+  display: flex;
+}
+
 img {
-  height: 200px;
-  width: 205px;
+  height: 155px;
+  width: 160px;
+  border-radius: 50%;
+  margin: 0px auto;
+  justify-content: center;
+  margin-bottom: -75px;
+  //align-self: baseline;
+}
+
+.mid-content {
+  text-align: center;
+  margin-top: 82px;
+  line-height: 30px;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.git-hub {
+  color: black;
+}
+
+.basic {
+  color: #85353A;
+}
+
+a {
+  color: #3B547A;
+}
+
+.bio {
+  font-size: 4em;
+  text-align: center;
+  padding-top: 35px;
 }
